@@ -37,12 +37,6 @@ class SpiderMain(object):
         print 'craw finished'
         self.outputer.output_html()
 
-
-# if __name__ == "__main__"
-#     root_url = "https://baike.baidu.com/item/Python"
-#     obj_spider = SpiderMain()
-#     obj_spider.craw(root_url)
-
 # 编写模块的主入口
 if __name__ == "__main__":
     # 爬虫入口页面
